@@ -1,4 +1,5 @@
 body {
+  color: white;
   background: rgb(46, 63, 87);
   background: linear-gradient(
     90deg,
@@ -29,6 +30,11 @@ body {
 
 .navbar.fixed-left .navbar-collapse .navbar-nav a:hover {
   color: white !important;
+}
+
+#navbarNavAltMarkup {
+  display: block !important;
+  margin-top: 2em;
 }
 
 .navbar.fixed-left .navbar-brand {
@@ -154,6 +160,9 @@ ul {
 .imgLinks a:hover {
   text-decoration: none;
 }
+.mainPage {
+  width: calc(100vw - 500px);
+}
 
 .imgLinks a img:hover {
   filter: brightness(50%);
@@ -228,4 +237,18 @@ ul {
 
 .mainPage img {
   width: 200px;
+}
+
+p {
+  min-width: 200px;
+}
+
+a,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.myStar:hover {
+  opacity: 0.5;
 }
